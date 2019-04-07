@@ -2,10 +2,10 @@
 
 $config = array();
 $config['os'] = (DIRECTORY_SEPARATOR == '\\') || (strtolower(substr(PHP_OS, 0, 3)) === 'win') ? 'windows' : 'linux';
-$config['dev'] = true;
+$config['dev'] = false;
 $config['use_print'] = true;
-$config['use_qr'] = true;
-$config['show_fork'] = true;
+$config['use_qr'] = false;
+$config['show_fork'] = false;
 #$config['file_format'] = 'date'; // comment in to get dateformat images
 
 // FOLDERS
