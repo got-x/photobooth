@@ -6,7 +6,7 @@ $config['dev'] = false;
 $config['use_print'] = true;
 $config['use_qr'] = false;
 $config['show_fork'] = false;
-#$config['file_format'] = 'date'; // comment in to get dateformat images
+$config['file_format'] = 'date'; // comment in to get dateformat images
 
 // FOLDERS
 // change the folders to whatever you like
